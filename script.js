@@ -26,8 +26,8 @@ function boxCreate(gridDim) {
     let box = [];
     for (i = 0; i < gridDim * gridDim; i++) {
         box[i] = document.createElement('div');
-        box[i].style.height = `${boxDimensions(gridDim) - 1.82}px`;
-        box[i].style.width = `${boxDimensions(gridDim) - 1.82}px`;
+        box[i].style.height = `${boxDimensions(gridDim) - 2}px`;
+        box[i].style.width = `${boxDimensions(gridDim) - 2}px`;
         box[i].classList.add('box');
         box[i].style.backgroundColor='rgb(255, 255, 255)';
         container.appendChild(box[i]);
